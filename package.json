@@ -1,0 +1,51 @@
+{
+  "name": "test-09062022",
+  "version": "0.0.1",
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vue-tsc --noEmit && vite build",
+    "generate": "vue-tsc --noEmit && vite build",
+    "dev": "vite",
+    "format": "prettier .  --write --fix",
+    "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore --fix src",
+    "lint:style": "stylelint src/**/*.{css,scss,vue}"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "@types/node": "^16.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-tailwindcss": "^3.5.0",
+    "eslint-plugin-vue": "^8.6.0",
+    "postcss": "^8.4.8",
+    "postcss-html": "^1.3.0",
+    "postcss-import": "^14.0.2",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.10",
+    "sass": "^1.51.0",
+    "sass-loader": "12.6.0",
+    "stylelint": "^14.8.2",
+    "stylelint-config-recommended": "^7.0.0",
+    "stylelint-config-recommended-vue": "^1.4.0",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "tailwindcss": "^3.0.24",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9",
+    "vite-plugin-eslint": "^1.6.0",
+    "vite-plugin-optimize-persist": "^0.1.2",
+    "vite-plugin-package-config": "^0.1.1",
+    "vue-tsc": "^0.34.12"
+  }
+}

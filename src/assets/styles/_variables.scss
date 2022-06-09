@@ -1,0 +1,12 @@
+$text-color: #1f2023;
+$primary: #4a9df7;
+$gray: #b0b0b0;
+$red: #eb5757;
+$font-famaly: Arial;
+
+:root {
+  --text-color: #{$text-color};
+  --primary: #{$primary};
+  --gray: #{$gray};
+  --red: #{$red};
+}
